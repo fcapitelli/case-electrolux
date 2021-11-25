@@ -1,1 +1,1 @@
-# case-eletrolux
+# case-electrolux
