@@ -84,7 +84,7 @@ def dataframeToPostgreTable(user, pwd, host, port, dbname, tbname, schema, dataf
     print("{} - Table created with success.".format(tbname))
     
 # API url list
-urlList = {'basecnt': 'https://apisidra.ibge.gov.br/values/t/1620/n1/all/v/all/p/all/c11255/90687,90691,90696,90707/d/v583%202',
+urlList = {'basecnt': 'https://apisidra.ibge.gov.br/values/t/5932/n1/all/v/6561/p/all/c11255/90687,90691,90696,90707/d/v6561%201',
            'baseipca': 'https://apisidra.ibge.gov.br/values/t/1737/n1/all/v/2266/p/last%20262/d/v2266%2013',
            'basepmc1': 'https://apisidra.ibge.gov.br/values/t/3415/n1/all/v/1195/p/all/c11046/40311/d/v1195%201',
            'basepmc2': 'https://apisidra.ibge.gov.br/values/t/3416/n1/all/v/564/p/all/c11046/40311/d/v564%201',
