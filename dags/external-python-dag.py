@@ -85,12 +85,12 @@ def dataframeToPostgreTable(user, pwd, host, port, dbname, tbname, schema, dataf
     
 # API url list
 urlList = {'basecnt': 'https://apisidra.ibge.gov.br/values/t/5932/n1/all/v/6561/p/all/c11255/90687,90691,90696,90707/d/v6561%201',
-           'baseipca': 'https://apisidra.ibge.gov.br/values/t/1737/n1/all/v/2266/p/last%20262/d/v2266%2013',
-           'basepmc1': 'https://apisidra.ibge.gov.br/values/t/3415/n1/all/v/1195/p/all/c11046/40311/d/v1195%201',
-           'basepmc2': 'https://apisidra.ibge.gov.br/values/t/3416/n1/all/v/564/p/all/c11046/40311/d/v564%201',
-           'basepmc3': 'https://apisidra.ibge.gov.br/values/t/3420/n1/all/v/568/p/all/c11046/40311/d/v568%201',
-           'basepimpfbr': 'https://apisidra.ibge.gov.br/values/t/3653/n1/all/v/3135/p/all/c544/129314,129315,129316/d/v3135%201',
-           'basepms': 'https://apisidra.ibge.gov.br/values/t/6442/n1/all/v/8676/p/all/c11046/40311/d/v8676%201',
+           'baseipca': 'https://apisidra.ibge.gov.br/values/t/6691/n1/all/v/2266/p/all/d/v2266%2013',
+           'basepmc1': 'https://apisidra.ibge.gov.br/values/t/3415/n1/all/v/all/p/all/c11046/40311/d/v1194%201,v1195%201',
+           'basepmc2': 'https://apisidra.ibge.gov.br/values/t/3416/n1/all/v/all/p/all/c11046/40311/d/v564%201,v565%201',
+           'basepmc3': 'https://apisidra.ibge.gov.br/values/t/3420/n1/all/v/all/p/all/c11046/40311/d/v568%201,v569%201',
+           'basepimpfbr': 'https://apisidra.ibge.gov.br/values/t/3653/n1/all/v/3136/p/all/c544/129314,129315,129316/d/v3136%201',
+           'basepms': 'https://apisidra.ibge.gov.br/values/t/6443/n1/all/v/all/p/all/c11046/40311/c12355/107071/d/v8676%201,v8677%201',
            'basebacen': 'https://api.bcb.gov.br/dados/serie/bcdata.sgs.24363/dados?formato=json'
           }
 
